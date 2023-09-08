@@ -50,12 +50,36 @@
 
 <b>◎sudo code로 cockpit 연결</b> <br>
 
+※sudo apt install cockpit을 통해서 cockpit 다운받기
+<br>
+<br>
 ※ 여기서 enable은 로그인을 다시하여도 자동으로 실행하도록하는것 enable대신 start를 사용하면 지금만 시작하는것<br>
 <img width="401" alt="cockpit명령어" src="https://github.com/Korcp/ecole-project/assets/48702154/76333ac3-3678-4e5d-821e-b6cec68f3a5d"><br>
 
 ※cockpit 현재상태보여주기 <br>
 <img width="404" alt="status cockpit" src="https://github.com/Korcp/ecole-project/assets/48702154/d1acf2d0-b365-415c-8900-0a9afd03b194"><br>
 
-◎
+<b>ubuntu local 접속</b><br>
+<img width="1091" alt="ubuntu화면" src="https://github.com/Korcp/ecole-project/assets/48702154/ed2f4ad8-de44-4e04-a855-00dc754efd86"><br>
 
+<b>접속후 터미널접속</b><br>
+<img width="1263" alt="접속후 터미널" src="https://github.com/Korcp/ecole-project/assets/48702154/a875b726-180f-43e9-8f2a-2b7947631d61"><br>
+
+<h2>ubuntu사이트에서 cloudpanel연결하기</h2>
+
+<b>cloudpanel에서 apt update랑 mysql copy하기</b><br>
+
+<img width="624" alt="cloudpanel " src="https://github.com/Korcp/ecole-project/assets/48702154/409935ad-1658-4c55-aca9-40d5191bd808"><br>
+
+<b>apt update</b><br>
+<img width="1103" alt="apt update" src="https://github.com/Korcp/ecole-project/assets/48702154/d94b7b6b-d27b-4e87-af6c-3bfe46c67d9f"><br>
+<b>mysql update</b><br>
+<img width="770" alt="mysqldb연동" src="https://github.com/Korcp/ecole-project/assets/48702154/afc328c1-5b8b-46f1-876d-6e2df6093b86"><br>
+
+※local에서는 서버가 port을 열수없어서 다른방법을 추가해야됨 추가안할경우 밑의그림처럼 응답을하지않음
+<img width="605" alt="locaerror" src="https://github.com/Korcp/ecole-project/assets/48702154/646cd3b6-8be1-4f6c-a2f9-54e1ee89018f"><br>
+
+※enable후 다시 로그인 하면 바로 cockpit이 실행
+
+<img width="337" alt="enable login" src="https://github.com/Korcp/ecole-project/assets/48702154/25e18fd1-0018-422c-ac4c-5c7a56edef38">
 
