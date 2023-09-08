@@ -6,6 +6,7 @@
 <img width="544" alt="VM으로 우분트 깔기" src="https://github.com/Korcp/ecole-project/assets/48702154/ddf6be42-af3f-4778-a02b-ea6be0fc2a5c">
 
 2.ubuntu 설치 순서
+<br/>
 <b>◎try...install..</b>
 <img width="713" alt="우분트 설치" src="https://github.com/Korcp/ecole-project/assets/48702154/b9c7d623-681b-4261-a102-6e4bc74bc2b2">
 ◎언어선택
