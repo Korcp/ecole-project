@@ -40,7 +40,22 @@
 <img width="302" alt="우분투 설정" src="https://github.com/Korcp/ecole-project/assets/48702154/c641fe89-6c54-4166-9cff-1aa85053d607">
 
 <h2>3.ubuntu 설정 및 cockpit 설치</h2><br/>
+<b>◎로그인화면</b>b><br/>
+<img width="401" alt="로그인화면" src="https://github.com/Korcp/ecole-project/assets/48702154/894ab2e2-c7d5-45d9-a186-b12eb0ba3d02">
+
 <b>◎sudo코드로 update 및 upgrade</b> <br/>
 <img width="461" alt="update" src="https://github.com/Korcp/ecole-project/assets/48702154/04c6d88a-34de-4b26-9781-e2e813154847"><br/>
 <img width="476" alt="우분투 sudo upgrade" src="https://github.com/Korcp/ecole-project/assets/48702154/6f81970c-c9b7-46e7-bc1f-5b2d29459b46"><br/>
 <img width="509" alt="upgrade화면" src="https://github.com/Korcp/ecole-project/assets/48702154/f78d6f97-fe46-4448-95b9-72abe0bdb331"><br/>
+
+<b>◎sudo code로 cockpit 연결</b> <br>
+
+※ 여기서 enable은 로그인을 다시하여도 자동으로 실행하도록하는것 enable대신 start를 사용하면 지금만 시작하는것<br>
+<img width="401" alt="cockpit명령어" src="https://github.com/Korcp/ecole-project/assets/48702154/76333ac3-3678-4e5d-821e-b6cec68f3a5d"><br>
+
+※cockpit 현재상태보여주기 <br>
+<img width="404" alt="status cockpit" src="https://github.com/Korcp/ecole-project/assets/48702154/d1acf2d0-b365-415c-8900-0a9afd03b194"><br>
+
+◎
+
+
