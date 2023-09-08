@@ -15,9 +15,7 @@
 <br/>
 
 <b>◎업데이트</b>
-
 <img width="733" alt="우분트 업데이트" src="https://github.com/Korcp/ecole-project/assets/48702154/e73edca8-f0dd-4eb2-9c34-b99545a12436"> <br/>
 
 <b>◎네트워크설정</b>
-
 <img width="663" alt="우분트 네트워크설정" src="https://github.com/Korcp/ecole-project/assets/48702154/259c84a5-a062-478d-bd5e-20f130b61fec">
