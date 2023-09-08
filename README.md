@@ -36,5 +36,6 @@
 <img width="715" alt="설치완료" src="https://github.com/Korcp/ecole-project/assets/48702154/7f448f93-6646-4297-97fa-8c476a20348e">
 
 <b>◎우분투 설정</b>
+
 <img width="302" alt="우분투 설정" src="https://github.com/Korcp/ecole-project/assets/48702154/c641fe89-6c54-4166-9cff-1aa85053d607">
 
