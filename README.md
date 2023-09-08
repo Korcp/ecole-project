@@ -22,3 +22,19 @@
 
 <b>◎디렉토리 구조 그</b><br/>
 <img width="678" alt="그룹취소" src="https://github.com/Korcp/ecole-project/assets/48702154/427527fb-93be-4f16-987e-cffa71e65eac">
+
+<b>◎파일 시스템 요약</b>
+<img width="649" alt="파일시스템요약" src="https://github.com/Korcp/ecole-project/assets/48702154/0782c446-3b82-4465-9c0e-7afdfbf073f6">
+
+<b>◎프로필 설정</b>
+<img width="707" alt="우분트 설치전 이름과 서버이름정하기" src="https://github.com/Korcp/ecole-project/assets/48702154/5beeb383-58f3-4a29-a19d-63677f251819">
+
+<b>◎이름과 패스워드/b>
+<img width="673" alt="우분트 이름과 패스워드설정" src="https://github.com/Korcp/ecole-project/assets/48702154/19799914-034a-402e-98b1-2761e8097cd7">
+
+<b>◎우분투 설치완료</b>
+<img width="715" alt="설치완료" src="https://github.com/Korcp/ecole-project/assets/48702154/7f448f93-6646-4297-97fa-8c476a20348e">
+
+<b>◎우분투 설정</b>
+<img width="302" alt="우분투 설정" src="https://github.com/Korcp/ecole-project/assets/48702154/c641fe89-6c54-4166-9cff-1aa85053d607">
+
