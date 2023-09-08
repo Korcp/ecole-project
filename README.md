@@ -9,9 +9,11 @@
 <br/>
 <b>◎try...install..</b>
 <img width="713" alt="우분트 설치" src="https://github.com/Korcp/ecole-project/assets/48702154/b9c7d623-681b-4261-a102-6e4bc74bc2b2">
-◎언어선택
+<br/>
+<b>◎언어선택</b>
 <img width="637" alt="초기실행창" src="https://github.com/Korcp/ecole-project/assets/48702154/cc1a516e-0e20-47e0-8293-63d4c6d0c4ad">
-◎업데이트
-<img width="733" alt="우분트 업데이트" src="https://github.com/Korcp/ecole-project/assets/48702154/e73edca8-f0dd-4eb2-9c34-b99545a12436">
-◎네트워크설정
+<br/>
+<b>◎업데이트</b>
+<img width="733" alt="우분트 업데이트" src="https://github.com/Korcp/ecole-project/assets/48702154/e73edca8-f0dd-4eb2-9c34-b99545a12436"> <br/>
+<b>◎네트워크설정</b>
 <img width="663" alt="우분트 네트워크설정" src="https://github.com/Korcp/ecole-project/assets/48702154/259c84a5-a062-478d-bd5e-20f130b61fec">
