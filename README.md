@@ -39,7 +39,7 @@
 
 <img width="302" alt="우분투 설정" src="https://github.com/Korcp/ecole-project/assets/48702154/c641fe89-6c54-4166-9cff-1aa85053d607">
 
-<h2>3.ubuntu 설정 및 cockpit 설치<h2/><br/>
+<h2>3.ubuntu 설정 및 cockpit 설치</h2><br/>
 <b>◎sudo코드로 update 및 upgrade</b> <br/>
 <img width="461" alt="update" src="https://github.com/Korcp/ecole-project/assets/48702154/04c6d88a-34de-4b26-9781-e2e813154847"><br/>
 <img width="476" alt="우분투 sudo upgrade" src="https://github.com/Korcp/ecole-project/assets/48702154/6f81970c-c9b7-46e7-bc1f-5b2d29459b46"><br/>
