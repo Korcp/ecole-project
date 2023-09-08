@@ -32,10 +32,15 @@
 <b>◎이름과 패스워드</b>
 <img width="673" alt="우분트 이름과 패스워드설정" src="https://github.com/Korcp/ecole-project/assets/48702154/19799914-034a-402e-98b1-2761e8097cd7">
 
-<b>◎우분투 설치완료</b>
+<b>◎ubuntu 설치완료</b>
 <img width="715" alt="설치완료" src="https://github.com/Korcp/ecole-project/assets/48702154/7f448f93-6646-4297-97fa-8c476a20348e">
 
-<b>◎우분투 설정</b>
+<b>◎ubuntu 설정</b>
 
 <img width="302" alt="우분투 설정" src="https://github.com/Korcp/ecole-project/assets/48702154/c641fe89-6c54-4166-9cff-1aa85053d607">
 
+3.ubuntu 설정 및 cockpit 설치<br/>
+<b>◎sudo코드로 update 및 upgrade</b>
+<img width="461" alt="update" src="https://github.com/Korcp/ecole-project/assets/48702154/04c6d88a-34de-4b26-9781-e2e813154847"><br/>
+<img width="476" alt="우분투 sudo upgrade" src="https://github.com/Korcp/ecole-project/assets/48702154/6f81970c-c9b7-46e7-bc1f-5b2d29459b46"><br/>
+<img width="509" alt="upgrade화면" src="https://github.com/Korcp/ecole-project/assets/48702154/f78d6f97-fe46-4448-95b9-72abe0bdb331"><br/>
