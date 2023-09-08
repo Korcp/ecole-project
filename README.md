@@ -9,8 +9,7 @@
 <br/>
 <b>◎try...install..</b>
 <img width="713" alt="우분트 설치" src="https://github.com/Korcp/ecole-project/assets/48702154/b9c7d623-681b-4261-a102-6e4bc74bc2b2">
-<br/>
-<b>◎언어선택</b>
+<br/><b>◎언어선택</b>
 <img width="637" alt="초기실행창" src="https://github.com/Korcp/ecole-project/assets/48702154/cc1a516e-0e20-47e0-8293-63d4c6d0c4ad">
 <br/>
 <b>◎업데이트</b>
