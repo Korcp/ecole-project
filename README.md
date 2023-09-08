@@ -40,7 +40,7 @@
 <img width="302" alt="우분투 설정" src="https://github.com/Korcp/ecole-project/assets/48702154/c641fe89-6c54-4166-9cff-1aa85053d607">
 
 <h2>3.ubuntu 설정 및 cockpit 설치</h2><br/>
-<b>◎로그인화면</b>b><br/>
+<b>◎로그인화면</b><br/>
 <img width="401" alt="로그인화면" src="https://github.com/Korcp/ecole-project/assets/48702154/894ab2e2-c7d5-45d9-a186-b12eb0ba3d02">
 
 <b>◎sudo코드로 update 및 upgrade</b> <br/>
