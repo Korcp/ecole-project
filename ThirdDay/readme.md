@@ -1,6 +1,7 @@
 <h1>3일 차 wordpress 포트폴리오 사이트 디지인 수정</h1>
 
 ![ecole-Portfolio](https://github.com/Korcp/ecole-project/assets/48702154/3b0ca899-e493-45be-9b2f-c0d82bfcde4e)
+<br/>
 
 수정한 부분
 일단 저는 저번에 만들엇던 포트폴리오가 너무 딱딱하고 정적인 느낌이 들어서 수정할때는 블로그 느낌이 나게 수정이을했습니다.
