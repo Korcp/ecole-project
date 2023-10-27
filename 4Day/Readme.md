@@ -6,6 +6,8 @@
 
   
 <h2>클릭했을때</h2>
+<img width="831" alt="image" src="https://github.com/Korcp/ecole-project/assets/48702154/3ff5501d-7655-4ae6-8eb1-4fc186e7d14a">
+
 <img width="933" alt="image" src="https://github.com/Korcp/ecole-project/assets/48702154/9c528f61-b41d-416f-aae5-a8abfcaa487e">
 
 <h2>회원가입 성공</h2>
