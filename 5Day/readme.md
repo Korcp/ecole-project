@@ -11,4 +11,31 @@
 7. DBeaver을 통하여 데이터 베이스 connect 접속 해보기
 8. 데이터베이스 설계하기
 
-#### Springboot이용한 로그인 기능 구현
+#### SpringSecurity이용한 로그인 기능 구현
+
+Spring Security란?  Spring 기반의 어플리케이션의 보안(인증과 권한, 인가 등)을 담당하는 스프링 하위 프레임워크이다. -> 인증과 인가에대한 처리를 해주는것
+※ 인증(Authentication):해당 사용자가 본인이 맞는지 확인하는 과정
+※ 인가(Authorization):해당 사용자가 요청하는 자원을 실행할 수 있는 권한이 있는가를 확인하는 과정
+Spring Security에서는 이러한 인증과 인가를 위해 Principal을 아이디로, Credential을 비밀번호로 사용하는 Credential 기반의 인증 방식을 사용한다.
+- Principal(접근 주체) : 보호받는 Resource에 접근하는 대상 즉, 대상
+- Credential(비밀번호) : Resource에 접근하는 대상의 비밀번호 즉, 대상의 비밀번호
+또한 Spring Security는 ‘인증’과 ‘인가’에 대한 부분을 Filter 흐름에 따라 처리하고 있다.
+![image](https://github.com/Korcp/ecole-project/assets/48702154/b29b5f0f-e180-4e89-bb1b-5009bfebdef1)
+↑
+
+1. 사용자가  로그인 정보와 함께 인증 요청을 한다.(Http Request)
+2. AuthenticationFilter가 요청을 가로채고, 가로챈 정보를 통해 UsernamePasswordAuthenticationToken의 인증용 객체를 생성한다.(principal,Credencial)
+3. AuthenticationManager의 구현체인 ProvierManager에게 생성한 UserPasswordToken객체를 전달한다.
+4. AuthenticationManager는 등록된 AuthenticationProvier들을 조회하여 인증을 요구한다.
+5. 실제 DB에서 사용자 인증정보를 가져오는 UserDetailsService에 사용자 정보를 넘겨준다.
+6. 넘겨받은 사용자 정보를 통해 DB에서 찾은 사용자 정보인 UserDetails 객체를만든다.
+7. AuthenticationProvider들은 UserDetails를 넘겨받고 사용자 정보를 비교한다.
+8. 인증이 완료되면 권한 등의 사용자 정보를 담은 Autnenticaiton 객체를 반환한다. (role)
+9. 다시 최초의 AuthenticationFilter에 Authentication 객체가 반환된다.
+10. Authentication 객체를 SecurityContext에 저장한다.
+
+---
+
+최종적으로 SecurityContextHolder는 세션 영역에 있는 SecurityContext에 Authentication 객체를 저장한다.
+
+사용자 정보를 저장한다는 것은 Spring Security가 전통적인 세션-쿠키 기반의 인증 방식을 사용한다는 것을 의미한다.
