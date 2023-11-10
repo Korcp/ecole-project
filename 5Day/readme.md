@@ -9,7 +9,10 @@
 3. 설치를 완료하였으면 Visual Studio를 통해 원격 접속을하여 폴더 구조열기<br>
 <img width="577" alt="vscode remote" src="https://github.com/Korcp/ecole-project/assets/48702154/a702cbf8-c44d-48be-bb55-11d5e14ba2f9"><br>
 
-4. docker_compose.yml파일과 .env파일 작성
+4. docker_compose.yml파일과 .env파일 작성<br>
+<img width="280" alt="compose yml" src="https://github.com/Korcp/ecole-project/assets/48702154/dc2026e9-98a3-4aaf-a8a0-5c47f0e84bca">
+<img width="280" alt="compose yml" src="https://github.com/Korcp/ecole-project/assets/48702154/c3caab13-5052-4513-9f6a-e3bb9d79054a"><br>
+
 5. 작성완료하였으면 sudo docker compose up -d 명령어를 통해 docker 실행시키기 -- -d를 붙이면 꺼지지않고 계속해서 실행됨
 6. AWS을 통하여 compose에서 지정했던 포트번호 뚫어주기(?)
 7. DBeaver을 통하여 데이터 베이스 connect 접속 해보기
