@@ -4,6 +4,7 @@
 
 1. 개인 우분트 서버에 접속하여 데이터베이스 docker를 설치할 폴더 구조 구축하기<br>
 <img width="577" alt="사진경로" src="https://github.com/Korcp/ecole-project/assets/48702154/619f1e47-b8df-4adb-a898-f1c1851861c6"><br>
+<hr>
 2. 구축을 완료했으면 docker 설치 ※https://docs.docker.com/engine/install/ubuntu/ 공식홈페이지에서 따라서 다운로드<br>
 <img width="577" alt="DOCKER설치" src="https://github.com/Korcp/ecole-project/assets/48702154/bdbb5865-a28e-4980-b1a3-cc8aae8c64cf"><br>
 3. 설치를 완료하였으면 Visual Studio를 통해 원격 접속을하여 폴더 구조열기<br>
