@@ -46,14 +46,14 @@ Spring Security에서는 이러한 인증과 인가를 위해 Principal을 아�
 9. 다시 최초의 AuthenticationFilter에 Authentication 객체가 반환된다.
 10. Authentication 객체를 SecurityContext에 저장한다.
 
-#### Jwt
+## Jwt
 ![image](https://github.com/Korcp/ecole-project/assets/48702154/7aa1a5d1-f069-4f29-b965-8d68e1e42bb8)
 
 - header : Header, Payload, Verify Signature 를 암호화할 방식(alg), 타입(Type) 등을 포함한다.
 - Payload :서버에서 보낼 데이터 - 일반적으로 user의 id, 유효기간 포함한다.
 - Verify Signature : Base64 방식으로 인코딩한 Header, Payload, Secret key 를 더한 값이다.
 
-## JWT를 통한 인증절차
+#### JWT를 통한 인증절차
 
 1. 사용자가 로그인을 한다.
 2. 서버에서는 계정 정보를 읽어 사용자를 확인 후, 사용자의 고유 ID 값을 부여한 후 기타 정보와 함께 Payload 에 집어넣는다.
