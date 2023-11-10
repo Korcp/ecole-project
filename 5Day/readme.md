@@ -46,11 +46,10 @@ Spring Security에서는 이러한 인증과 인가를 위해 Principal을 아�
 9. 다시 최초의 AuthenticationFilter에 Authentication 객체가 반환된다.
 10. Authentication 객체를 SecurityContext에 저장한다.
 
----
-
-최종적으로 SecurityContextHolder는 세션 영역에 있는 SecurityContext에 Authentication 객체를 저장한다.
-
-사용자 정보를 저장한다는 것은 Spring Security가 전통적인 세션-쿠키 기반의 인증 방식을 사용한다는 것을 의미한다.
-
 ####구현하기
+1. <img width="200" alt="Spring구조ㅓ" src="https://github.com/Korcp/ecole-project/assets/48702154/0fe6fb46-0d29-4dac-becb-8c69c0b57414"><br>
+2. <img width="542" alt="image" src="https://github.com/Korcp/ecole-project/assets/48702154/615ae425-8299-492a-9b9a-4b8a2c547751">
+3.<img width="716" alt="image" src="https://github.com/Korcp/ecole-project/assets/48702154/0b3b0386-7e4e-470e-ae1f-113e9524d23f">
+4.![image](https://github.com/Korcp/ecole-project/assets/48702154/1830ef4c-61c3-40ae-a2af-338a840bba39)
+
 
