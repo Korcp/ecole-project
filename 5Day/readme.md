@@ -39,7 +39,7 @@ Spring Security에서는 이러한 인증과 인가를 위해 Principal을 아�
 - Credential(비밀번호) : Resource에 접근하는 대상의 비밀번호 즉, 대상의 비밀번호
 또한 Spring Security는 ‘인증’과 ‘인가’에 대한 부분을 Filter 흐름에 따라 처리하고 있다.
 
-[image](https://github.com/Korcp/ecole-project/assets/48702154/b29b5f0f-e180-4e89-bb1b-5009bfebdef1)
+![image](https://github.com/Korcp/ecole-project/assets/48702154/b29b5f0f-e180-4e89-bb1b-5009bfebdef1)
 
 ↑
 1. 사용자가  로그인 정보와 함께 인증 요청을 한다.(Http Request)
@@ -54,6 +54,7 @@ Spring Security에서는 이러한 인증과 인가를 위해 Principal을 아�
 10. Authentication 객체를 SecurityContext에 저장한다.
 <hr>
 ## Jwt
+
 ![image](https://github.com/Korcp/ecole-project/assets/48702154/7aa1a5d1-f069-4f29-b965-8d68e1e42bb8)
 
 - header : Header, Payload, Verify Signature 를 암호화할 방식(alg), 타입(Type) 등을 포함한다.
