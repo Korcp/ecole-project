@@ -31,13 +31,13 @@
 
 #### SpringSecurity
 
-Spring Security란?  Spring 기반의 어플리케이션의 보안(인증과 권한, 인가 등)을 담당하는 스프링 하위 프레임워크이다. -> 인증과 인가에대한 처리를 해주는것
-※ 인증(Authentication):해당 사용자가 본인이 맞는지 확인하는 과정
-※ 인가(Authorization):해당 사용자가 요청하는 자원을 실행할 수 있는 권한이 있는가를 확인하는 과정
-Spring Security에서는 이러한 인증과 인가를 위해 Principal을 아이디로, Credential을 비밀번호로 사용하는 Credential 기반의 인증 방식을 사용한다.
-- Principal(접근 주체) : 보호받는 Resource에 접근하는 대상 즉, 대상
-- Credential(비밀번호) : Resource에 접근하는 대상의 비밀번호 즉, 대상의 비밀번호
-또한 Spring Security는 ‘인증’과 ‘인가’에 대한 부분을 Filter 흐름에 따라 처리하고 있다.
+Spring Security란?  Spring 기반의 어플리케이션의 보안(인증과 권한, 인가 등)을 담당하는 스프링 하위 프레임워크이다. -> 인증과 인가에대한 처리를 해주는것<br>
+※ 인증(Authentication):해당 사용자가 본인이 맞는지 확인하는 과정<br>
+※ 인가(Authorization):해당 사용자가 요청하는 자원을 실행할 수 있는 권한이 있는가를 확인하는 과정<br>
+Spring Security에서는 이러한 인증과 인가를 위해 Principal을 아이디로, Credential을 비밀번호로 사용하는 Credential 기반의 인증 방식을 사용한다.<br>
+- Principal(접근 주체) : 보호받는 Resource에 접근하는 대상 즉, 대상<br>
+- Credential(비밀번호) : Resource에 접근하는 대상의 비밀번호 즉, 대상의 비밀번호<br>
+또한 Spring Security는 ‘인증’과 ‘인가’에 대한 부분을 Filter 흐름에 따라 처리하고 있다.<br>
 
 ![image](https://github.com/Korcp/ecole-project/assets/48702154/b29b5f0f-e180-4e89-bb1b-5009bfebdef1)
 
