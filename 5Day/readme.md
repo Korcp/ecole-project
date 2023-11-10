@@ -1,4 +1,4 @@
-### Docker와 AWS서버를 이용한 데이터베이스 서버 만들기 및 Springboot(SpringSecurity)이용한 로그인 기능 구현(백엔드)
+![image](https://github.com/Korcp/ecole-project/assets/48702154/ea605ec7-b839-405d-a7aa-0fdfa0263ca0)### Docker와 AWS서버를 이용한 데이터베이스 서버 만들기 및 Springboot(SpringSecurity)이용한 로그인 기능 구현(백엔드)
 
 #### 데이터베이스 구축하기
 
@@ -46,7 +46,27 @@ Spring Security에서는 이러한 인증과 인가를 위해 Principal을 아�
 9. 다시 최초의 AuthenticationFilter에 Authentication 객체가 반환된다.
 10. Authentication 객체를 SecurityContext에 저장한다.
 
-####구현하기
+#### Jwt
+![image](https://github.com/Korcp/ecole-project/assets/48702154/7aa1a5d1-f069-4f29-b965-8d68e1e42bb8)
+
+- header : Header, Payload, Verify Signature 를 암호화할 방식(alg), 타입(Type) 등을 포함한다.
+- Payload :서버에서 보낼 데이터 - 일반적으로 user의 id, 유효기간 포함한다.
+- Verify Signature : Base64 방식으로 인코딩한 Header, Payload, Secret key 를 더한 값이다.
+
+## JWT를 통한 인증절차
+
+1. 사용자가 로그인을 한다.
+2. 서버에서는 계정 정보를 읽어 사용자를 확인 후, 사용자의 고유 ID 값을 부여한 후 기타 정보와 함께 Payload 에 집어넣는다.
+3. JWT 토큰의 유효기간을 설정한다.
+4. 암호화할 Secret key 를 이용해 Access Token 을 발급한다.
+5. 사용자는 Access Token 을 받아 저장 후, 인증이 필요한 요청마다 토큰을 헤더에 실어 보낸다.
+6. 서버에서는 해당 토큰의 Verify Signature 를 Secret key 로 복호화한 후, 조작 여부, 유효기간을 확인한다.
+7. 검증이 완료되었을 경우, Payload 를 디코딩 하여 사용자의 ID 에 맞는 데이터를 가져온다.
+
+> JWT는 보통 Access Token의 유효기간은 매우 짧다. 이유는 보안 문제 때문이다. 그래서 Refresh Token을 따로 발급해주는데, Access Token이 만료되면 새로운 JWT를 발급할 수 있는 토큰이다.
+>
+
+#### 구현하기
 1. <img width="200" alt="Spring구조ㅓ" src="https://github.com/Korcp/ecole-project/assets/48702154/0fe6fb46-0d29-4dac-becb-8c69c0b57414"><br>
 2.<img width="716" alt="image" src="https://github.com/Korcp/ecole-project/assets/48702154/0b3b0386-7e4e-470e-ae1f-113e9524d23f"><br>
 3.![image](https://github.com/Korcp/ecole-project/assets/48702154/1830ef4c-61c3-40ae-a2af-338a840bba39)<br>
