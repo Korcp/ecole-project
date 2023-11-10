@@ -2,6 +2,7 @@
 
 #### 데이터베이스 구축하기
 
+<hr>
 1. 개인 우분트 서버에 접속하여 데이터베이스 docker를 설치할 폴더 구조 구축하기<br>
 <img width="577" alt="사진경로" src="https://github.com/Korcp/ecole-project/assets/48702154/619f1e47-b8df-4adb-a898-f1c1851861c6"><br>
 <hr>
