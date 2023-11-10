@@ -29,7 +29,7 @@
 <img width="205" alt="디비설계" src="https://github.com/Korcp/ecole-project/assets/48702154/83813ec8-a27b-4e57-8d32-775b384bec07">
 <hr>
 
-#### SpringSecurity이용한 로그인 기능 구현
+#### SpringSecurity
 
 Spring Security란?  Spring 기반의 어플리케이션의 보안(인증과 권한, 인가 등)을 담당하는 스프링 하위 프레임워크이다. -> 인증과 인가에대한 처리를 해주는것
 ※ 인증(Authentication):해당 사용자가 본인이 맞는지 확인하는 과정
