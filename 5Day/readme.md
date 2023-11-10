@@ -40,8 +40,8 @@ Spring Security에서는 이러한 인증과 인가를 위해 Principal을 아�
 또한 Spring Security는 ‘인증’과 ‘인가’에 대한 부분을 Filter 흐름에 따라 처리하고 있다.
 
 [image](https://github.com/Korcp/ecole-project/assets/48702154/b29b5f0f-e180-4e89-bb1b-5009bfebdef1)
-↑
 
+↑
 1. 사용자가  로그인 정보와 함께 인증 요청을 한다.(Http Request)
 2. AuthenticationFilter가 요청을 가로채고, 가로챈 정보를 통해 UsernamePasswordAuthenticationToken의 인증용 객체를 생성한다.(principal,Credencial)
 3. AuthenticationManager의 구현체인 ProvierManager에게 생성한 UserPasswordToken객체를 전달한다.
