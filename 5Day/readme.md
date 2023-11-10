@@ -14,9 +14,13 @@
 <img width="221" alt="env" src="https://github.com/Korcp/ecole-project/assets/48702154/1f884dbe-6e33-4216-b1d0-d2a3dd48fc62"><br>
 
 5. 작성완료하였으면 sudo docker compose up -d 명령어를 통해 docker 실행시키기 -- -d를 붙이면 꺼지지않고 계속해서 실행됨
-6. AWS을 통하여 compose에서 지정했던 포트번호 뚫어주기(?)
-7. DBeaver을 통하여 데이터 베이스 connect 접속 해보기
-8. 데이터베이스 설계하기
+6. AWS을 통하여 compose에서 지정했던 포트번호 뚫어주기(?)<br>
+<img width="577" alt="포트고체" src="https://github.com/Korcp/ecole-project/assets/48702154/56e6dd4a-9ea3-418b-a062-f1da6b0a37eb">
+<br>
+8. DBeaver을 통하여 데이터 베이스 connect 접속 해보기<img width="577" alt="connecting" src="https://github.com/Korcp/ecole-project/assets/48702154/0b2ec36d-77c2-49d1-ae2d-b2877d6df417">
+
+9. 데이터베이스 설계하기<br>
+<img width="205" alt="디비설계" src="https://github.com/Korcp/ecole-project/assets/48702154/83813ec8-a27b-4e57-8d32-775b384bec07">
 
 #### SpringSecurity이용한 로그인 기능 구현
 
