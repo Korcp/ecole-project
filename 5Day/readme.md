@@ -1,4 +1,4 @@
-![image](https://github.com/Korcp/ecole-project/assets/48702154/ea605ec7-b839-405d-a7aa-0fdfa0263ca0)### Docker와 AWS서버를 이용한 데이터베이스 서버 만들기 및 Springboot(SpringSecurity)이용한 로그인 기능 구현(백엔드)
+### Docker와 AWS서버를 이용한 데이터베이스 서버 만들기 및 Springboot(SpringSecurity)이용한 로그인 기능 구현(백엔드)
 
 #### 데이터베이스 구축하기
 
