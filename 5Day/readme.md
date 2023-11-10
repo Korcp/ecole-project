@@ -38,7 +38,8 @@ Spring Security에서는 이러한 인증과 인가를 위해 Principal을 아�
 - Principal(접근 주체) : 보호받는 Resource에 접근하는 대상 즉, 대상
 - Credential(비밀번호) : Resource에 접근하는 대상의 비밀번호 즉, 대상의 비밀번호
 또한 Spring Security는 ‘인증’과 ‘인가’에 대한 부분을 Filter 흐름에 따라 처리하고 있다.
-![image](https://github.com/Korcp/ecole-project/assets/48702154/b29b5f0f-e180-4e89-bb1b-5009bfebdef1)
+
+[image](https://github.com/Korcp/ecole-project/assets/48702154/b29b5f0f-e180-4e89-bb1b-5009bfebdef1)
 ↑
 
 1. 사용자가  로그인 정보와 함께 인증 요청을 한다.(Http Request)
