@@ -27,7 +27,7 @@
 <hr>
 9. 데이터베이스 설계하기<br>
 <img width="205" alt="디비설계" src="https://github.com/Korcp/ecole-project/assets/48702154/83813ec8-a27b-4e57-8d32-775b384bec07">
-
+<hr>
 #### SpringSecurity이용한 로그인 기능 구현
 
 Spring Security란?  Spring 기반의 어플리케이션의 보안(인증과 권한, 인가 등)을 담당하는 스프링 하위 프레임워크이다. -> 인증과 인가에대한 처리를 해주는것
@@ -50,7 +50,7 @@ Spring Security에서는 이러한 인증과 인가를 위해 Principal을 아�
 8. 인증이 완료되면 권한 등의 사용자 정보를 담은 Autnenticaiton 객체를 반환한다. (role)
 9. 다시 최초의 AuthenticationFilter에 Authentication 객체가 반환된다.
 10. Authentication 객체를 SecurityContext에 저장한다.
-
+<hr>
 ## Jwt
 ![image](https://github.com/Korcp/ecole-project/assets/48702154/7aa1a5d1-f069-4f29-b965-8d68e1e42bb8)
 
