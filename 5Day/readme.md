@@ -5,8 +5,10 @@
 1. 개인 우분트 서버에 접속하여 데이터베이스 docker를 설치할 폴더 구조 구축하기<br>
 <img width="577" alt="사진경로" src="https://github.com/Korcp/ecole-project/assets/48702154/619f1e47-b8df-4adb-a898-f1c1851861c6"><br>
 2. 구축을 완료했으면 docker 설치 ※https://docs.docker.com/engine/install/ubuntu/ 공식홈페이지에서 따라서 다운로드<br>
-<img width="593" alt="DOCKER설치" src="https://github.com/Korcp/ecole-project/assets/48702154/bdbb5865-a28e-4980-b1a3-cc8aae8c64cf"><br>
-3. 설치를 완료하였으면 Visual Studio를 통해 원격 접속을하여 폴더 구조열기
+<img width="577" alt="DOCKER설치" src="https://github.com/Korcp/ecole-project/assets/48702154/bdbb5865-a28e-4980-b1a3-cc8aae8c64cf"><br>
+3. 설치를 완료하였으면 Visual Studio를 통해 원격 접속을하여 폴더 구조열기<br>
+<img width="577" alt="vscode remote" src="https://github.com/Korcp/ecole-project/assets/48702154/a702cbf8-c44d-48be-bb55-11d5e14ba2f9"><br>
+
 4. docker_compose.yml파일과 .env파일 작성
 5. 작성완료하였으면 sudo docker compose up -d 명령어를 통해 docker 실행시키기 -- -d를 붙이면 꺼지지않고 계속해서 실행됨
 6. AWS을 통하여 compose에서 지정했던 포트번호 뚫어주기(?)
