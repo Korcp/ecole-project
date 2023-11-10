@@ -8,20 +8,23 @@
 <hr>
 2. 구축을 완료했으면 docker 설치 ※https://docs.docker.com/engine/install/ubuntu/ 공식홈페이지에서 따라서 다운로드<br>
 <img width="577" alt="DOCKER설치" src="https://github.com/Korcp/ecole-project/assets/48702154/bdbb5865-a28e-4980-b1a3-cc8aae8c64cf"><br>
+<hr>
 3. 설치를 완료하였으면 Visual Studio를 통해 원격 접속을하여 폴더 구조열기<br>
 <img width="577" alt="vscode remote" src="https://github.com/Korcp/ecole-project/assets/48702154/a702cbf8-c44d-48be-bb55-11d5e14ba2f9"><br>
-
+<hr>
 4. docker_compose.yml파일과 .env파일 작성<br>
 <img width="280" alt="compose yml" src="https://github.com/Korcp/ecole-project/assets/48702154/c3caab13-5052-4513-9f6a-e3bb9d79054a">
 <img width="221" alt="env" src="https://github.com/Korcp/ecole-project/assets/48702154/1f884dbe-6e33-4216-b1d0-d2a3dd48fc62"><br>
-
+<hr>
 5. 작성완료하였으면 sudo docker compose up -d 명령어를 통해 docker 실행시키기 -- -d를 붙이면 꺼지지않고 계속해서 실행됨
+<hr>
 6. AWS을 통하여 compose에서 지정했던 포트번호 뚫어주기(?)<br>
 <img width="577" alt="포트고체" src="https://github.com/Korcp/ecole-project/assets/48702154/56e6dd4a-9ea3-418b-a062-f1da6b0a37eb">
 <br>
+<hr>
 8. DBeaver을 통하여 데이터 베이스 connect 접속 해보기<br>
 <img width="577" alt="connecting" src="https://github.com/Korcp/ecole-project/assets/48702154/0b2ec36d-77c2-49d1-ae2d-b2877d6df417"><br>
-
+<hr>
 9. 데이터베이스 설계하기<br>
 <img width="205" alt="디비설계" src="https://github.com/Korcp/ecole-project/assets/48702154/83813ec8-a27b-4e57-8d32-775b384bec07">
 
