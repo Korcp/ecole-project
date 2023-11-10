@@ -75,8 +75,9 @@ Spring Security에서는 이러한 인증과 인가를 위해 Principal을 아�
 >
 
 #### 구현하기
-1. <img width="200" alt="Spring구조ㅓ" src="https://github.com/Korcp/ecole-project/assets/48702154/0fe6fb46-0d29-4dac-becb-8c69c0b57414"><br>
-2.<img width="716" alt="image" src="https://github.com/Korcp/ecole-project/assets/48702154/0b3b0386-7e4e-470e-ae1f-113e9524d23f"><br>
-3.![image](https://github.com/Korcp/ecole-project/assets/48702154/1830ef4c-61c3-40ae-a2af-338a840bba39)<br>
+1. <br><img width="200" alt="Spring구조ㅓ" src="https://github.com/Korcp/ecole-project/assets/48702154/0fe6fb46-0d29-4dac-becb-8c69c0b57414"><br>
+2. <br><img width="716" alt="image" src="https://github.com/Korcp/ecole-project/assets/48702154/0b3b0386-7e4e-470e-ae1f-113e9524d23f"><br>
+3. <br><img width="808" alt="image" src="https://github.com/Korcp/ecole-project/assets/48702154/c8a8e04a-acb3-4d8c-bda5-f62153420bf5">
+4. <br>![image](https://github.com/Korcp/ecole-project/assets/48702154/1830ef4c-61c3-40ae-a2af-338a840bba39)<br>
 
 
