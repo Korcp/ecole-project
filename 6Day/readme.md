@@ -28,7 +28,9 @@
 
 <img width="278" alt="intro1" src="https://github.com/Korcp/ecole-project/assets/48702154/d691013f-c079-4b56-8a97-449e1d50af40"> <br>
 
-<img width="276" alt="intro2 html" src="https://github.com/Korcp/ecole-project/assets/48702154/e7a5ea8f-8579-426a-a993-8a0bfd112343">
+<img width="276" alt="intro2 html" src="https://github.com/Korcp/ecole-project/assets/48702154/e7a5ea8f-8579-426a-a993-8a0bfd112343"><br>
+
+-- 교과목 개요,교과목 목표, 세부 사항을 누르면 각 타이틀에따라 내용이 나옴
 
 #### ProJect
 
